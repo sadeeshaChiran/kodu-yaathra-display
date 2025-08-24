@@ -295,8 +295,9 @@ body {
   .card2 .slide.slide2 {
 	flex: 1;
 	background: #fff;
-	padding: 1rem;
+	padding: 1.5rem;
 	transform: translateX(0px);
+	text-align: center;
   }
   .card2:hover .slide.slide2 {
 	transform: translateX(0);
@@ -309,7 +310,7 @@ body {
   }
   .card2 .slide.slide2 p {
 	margin: 0.2rem 0 0;
-	font-size: 0.9rem;
+	font-size: 1.1rem;
 	color: #666;
   }
   

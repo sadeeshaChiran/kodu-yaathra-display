@@ -292,33 +292,7 @@ export default function KoduYathra() {
                             {/* Page 2 */}
                             <section style={{ height: '100vh', width: '100vw', color: 'black', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center', fontSize: '3.5rem', fontWeight: 'bold', fontFamily: "'Ubuntu', sans-serif" }}>
                                 <ScrollSinhala text="Get Ready" startOffset={0.5} endOffset={1.0} fontFamily="'Ubuntu', sans-serif" marginTop='6rem' />
-                                {/* <div class="wrapper">
-                                    <div class="container">
-                                        <div class="fold"></div>
-                                    </div>
-                                </div> */}
-
-                                {/* <div style={{ marginBottom: '0rem', textAlign: 'center' }}>
-
-                                    <AnimatedText
-                                        fontFamily="'Ubuntu', sans-serif"
-                                        text="DATE: 26th AUGUST 2025"
-                                        fontSize="1.4rem"
-                                        topMargin="2rem"
-                                    />
-                                    <AnimatedText
-                                        fontFamily="'Ubuntu', sans-serif"
-                                        text="Time: 05:00 PM"
-                                        fontSize="1.4rem"
-                                        topMargin="1rem"
-                                    />
-                                    <AnimatedText
-                                        fontFamily="'Ubuntu', sans-serif"
-                                        text="VENUE: PROF.J.W.DAYANANDA SOMASUNDARA AUDITORIUN"
-                                        fontSize="1.2rem"
-                                        topMargin="1rem"
-                                    />
-                                </div> */}
+                               
                                 <EventDetails />
 
 
