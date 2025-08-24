@@ -292,14 +292,15 @@ export default function KoduYathra() {
                             {/* Page 2 */}
                             <section style={{ height: '100vh', width: '100vw', color: 'black', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center', fontSize: '3.5rem', fontWeight: 'bold', fontFamily: "'Ubuntu', sans-serif" }}>
                                 <ScrollSinhala text="Get Ready" startOffset={0.5} endOffset={1.0} fontFamily="'Ubuntu', sans-serif" marginTop='6rem' />
-                               
+
                                 <EventDetails />
 
 
                                 <div className="footer-text-container2" style={{ marginBottom: '20px', textAlign: 'center', position: 'relative', marginLeft: '5px', marginRight: '5px' }}>
                                     <img src="/foclogo.png" className="footer-logo front-logo" />
                                     <p className="footer-text">
-                                        {"Students' Union Faculty of Computing Sabaragamuwa University of Sri Lanka"}
+                                        {"Students' Union Faculty of Computing"} <br />
+                                        {"Sabaragamuwa University of Sri Lanka"}
                                     </p>
                                     <img src="/susllog.png" className="footer-logo back-logo" />
                                 </div>
